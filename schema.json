@@ -1,0 +1,62 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "accordion",
+    "friendlyName": "Accordion",
+    "description": "A collapsible container Budibase component",
+    "icon": "TreeExpandAll",
+    "hasChildren": true,
+    "illegalChildren": ["section"],
+    "showSettingsBar": true,
+    "settings": [
+      {
+        "type": "text",
+        "label": "Label",
+        "placeholder": "Label",
+        "key": "label"
+      },
+      {
+        "type": "text",
+        "label": "Width",
+        "key": "width",
+        "defaultValue": "",
+        "placeholder": "Auto"
+      },
+      {
+        "type": "select",
+        "label": "Size",
+        "key": "size",
+        "defaultValue": "11px",
+        "showInBar": true,
+        "barStyle": "picker",
+        "options": [
+          {
+            "label": "Extra Small",
+            "value": "9px"
+          },
+          {
+            "label": "Small",
+            "value": "11px"
+          },
+          {
+            "label": "Medium",
+            "value": "14px"
+          },
+          {
+            "label": "Large",
+            "value": "18px"
+          },
+          {
+            "label": "Extra Large",
+            "value": "24px"
+          },
+          {
+            "label": "2XL",
+            "value": "32px"
+          }
+        ]
+      }
+    ]
+  }
+}
