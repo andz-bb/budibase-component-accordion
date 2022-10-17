@@ -56,6 +56,22 @@
             "value": "32px"
           }
         ]
+      },
+      {
+        "type": "select",
+        "label": "Default State",
+        "key": "openDefault",
+        "defaultValue": true,
+        "options": [
+          {
+            "label": "Open",
+            "value": true
+          },
+          {
+            "label": "Closed",
+            "value": false
+          }
+        ]
       }
     ]
   }
