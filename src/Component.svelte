@@ -3,10 +3,11 @@
   import "@spectrum-css/accordion";
 
   export let label;
+  export let openDefault;
   export let size;
   export let width;
 
-  $: open = true;
+  $: open = openDefault;
 
   const { styleable } = getContext("sdk");
   const component = getContext("component");
