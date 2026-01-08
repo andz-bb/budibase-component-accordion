@@ -1,4 +1,8 @@
 # Accordion
+## 2025 update: deprecated because I built the Accordion component natively into Budibase.
+## [pull request](https://github.com/Budibase/budibase/pull/15779) | [docs](https://docs.budibase.com/docs/accordion)
+
+---
 
 A simple collapsible container for Budibase using [Spectrum CSS](https://opensource.adobe.com/spectrum-css/)
 
